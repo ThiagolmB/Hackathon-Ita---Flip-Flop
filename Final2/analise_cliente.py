@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 import threading
 
 # Inicialize o cliente do Gemini
-client = genai.Client(api_key="AQ.Ab8RN6LPa0vtFAyi-1ZHzorES-_Y5mPUXHXKJgQ8z6Lrxe9Cyg")
+client = genai.Client(api_key="COLOQUE API AQUI")
 
 def carregar_dados():
     caminho = "Final2/maria.json" if os.path.exists("Teste3/cliente.json") else "cliente.json"
