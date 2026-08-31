@@ -1,0 +1,60 @@
+{
+    "cliente_id": "12345",
+    "nome": "João Pereira Santana",
+    "dia_atual": 30,
+    "saldo_conta_corrente": -1.1368683772161603e-13,
+    "investimentos_cdb": 1288.3899999999999,
+    "evento_salario": {
+        "tipo": "PIX_SALARIO",
+        "valor": 5000.0,
+        "dia_recebimento": 1
+    },
+    "historico_despesas_mes_anterior": {
+        "custos_fixos": {
+            "moradia": 1500.0,
+            "transporte": 400.0,
+            "contas_consumo_luz_agua": 300.0
+        },
+        "gastos_variaveis": {
+            "delivery": 600.0,
+            "supermercado": 800.0
+        }
+    },
+    "dividas_e_creditos": {
+        "emprestimos_ativos": {
+            "instituicao": "Banco Concorrente (Open Finance)",
+            "tipo": "Empréstimo Pessoal",
+            "saldo_devedor": 0.0,
+            "taxa_juros_mensal": "6.2%"
+        }
+    },
+    "planejamentos_futuros": {
+        "meta": "Viagem para a Praia",
+        "valor_objetivo": 3000.0,
+        "valor_guardado_atual": 3000.0,
+        "prazo_meses": 6
+    },
+    "contas_futuras_mes": [
+        {
+            "id": "c1",
+            "descricao": "Fatura de Energia (Enel)",
+            "valor": 250.0,
+            "dia_vencimento": 5,
+            "status": "pago"
+        },
+        {
+            "id": "c2",
+            "descricao": "Aluguel",
+            "valor": 1500.0,
+            "dia_vencimento": 10,
+            "status": "pago"
+        },
+        {
+            "id": "c3",
+            "descricao": "Internet Fibra",
+            "valor": 110.0,
+            "dia_vencimento": 15,
+            "status": "pago"
+        }
+    ]
+}

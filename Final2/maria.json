@@ -1,0 +1,61 @@
+{
+    "cliente_id": "12347",
+    "nome": "Maria Amabile Aguiar",
+    "dia_atual": 30,
+    "saldo_conta_corrente": 0.0,
+    "investimentos_cdb": 117.0,
+    "evento_salario": {
+        "tipo": "PIX_SALARIO",
+        "valor": 2500.0,
+        "dia_recebimento": 1
+    },
+    "historico_despesas_mes_anterior": {
+        "custos_fixos": {
+            "moradia": 800.0,
+            "plano_de_saude": 350.0,
+            "contas_consumo_luz_agua": 220.0
+        },
+        "gastos_variaveis": {
+            "supermercado": 800.0,
+            "restaurantes": 300.0
+        }
+    },
+    "dividas_e_creditos": {
+        "cartao_credito_fatura_aberta": 1900.0,
+        "emprestimos_ativos": {
+            "instituicao": "Nenhuma",
+            "tipo": "Nenhum",
+            "saldo_devedor": 0.0,
+            "taxa_juros_mensal": "0.0%"
+        }
+    },
+    "planejamentos_futuros": {
+        "meta": "Entrada do Apê",
+        "valor_objetivo": 5000.0,
+        "valor_guardado_atual": 330.0,
+        "prazo_meses": 12
+    },
+    "contas_futuras_mes": [
+        {
+            "id": "c1",
+            "descricao": "Condomínio e Aluguel",
+            "valor": 800.0,
+            "dia_vencimento": 10,
+            "status": "pago"
+        },
+        {
+            "id": "c2",
+            "descricao": "Plano de Saúde",
+            "valor": 350.0,
+            "dia_vencimento": 15,
+            "status": "pago"
+        },
+        {
+            "id": "c3",
+            "descricao": "Energia e Gás",
+            "valor": 250.0,
+            "dia_vencimento": 18,
+            "status": "pago"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "cliente_id": "12346",
+    "nome": "Renan Saez de Almeida",
+    "dia_atual": 30,
+    "saldo_conta_corrente": 3510.0,
+    "investimentos_cdb": 1400.0,
+    "evento_salario": {
+        "tipo": "PIX_SALARIO",
+        "valor": 7200.0,
+        "dia_recebimento": 1
+    },
+    "historico_despesas_mes_anterior": {
+        "custos_fixos": {
+            "faculdade": 800.0,
+            "transporte": 250.0,
+            "contas_consumo_luz_agua": 180.0
+        },
+        "gastos_variaveis": {
+            "supermercado": 500.0,
+            "lazer": 300.0
+        }
+    },
+    "dividas_e_creditos": {
+        "cartao_credito_fatura_aberta": 850.0,
+        "emprestimos_ativos": {
+            "instituicao": "Itaú",
+            "tipo": "Crediário Hardware",
+            "saldo_devedor": -350.0,
+            "taxa_juros_mensal": "2.1%"
+        }
+    },
+    "planejamentos_futuros": {
+        "meta": "Notebook Novo",
+        "valor_objetivo": 4500.0,
+        "valor_guardado_atual": 1300.0,
+        "prazo_meses": 8
+    },
+    "contas_futuras_mes": [
+        {
+            "id": "c1",
+            "descricao": "Mensalidade Faculdade",
+            "valor": 800.0,
+            "dia_vencimento": 8,
+            "status": "pago"
+        },
+        {
+            "id": "c2",
+            "descricao": "Fatura Cartão de Crédito",
+            "valor": 850.0,
+            "dia_vencimento": 12,
+            "status": "pago"
+        },
+        {
+            "id": "c3",
+            "descricao": "Plano de Celular",
+            "valor": 70.0,
+            "dia_vencimento": 20,
+            "status": "pago"
+        }
+    ]
+}
